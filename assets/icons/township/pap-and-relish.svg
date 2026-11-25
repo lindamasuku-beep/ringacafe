@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="100%" height="100%" fill="none" class="township-icon township-pap">
+  <defs>
+    <filter id="mural-roughness-pap" x="-15%" y="-15%" width="130%" height="130%" filterUnits="objectBoundingBox">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="4" result="noise" />
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="3.2" xChannelSelector="R" yChannelSelector="G" result="displaced" />
+    </filter>
+  </defs>
+
+  <g filter="url(#mural-roughness-pap)">
+    <!-- Painted Wall Cast Shadow -->
+    <g opacity="0.45" transform="translate(5, 6)">
+      <ellipse cx="80" cy="124" rx="64" ry="20" fill="#120e0a"/>
+      <ellipse cx="80" cy="88" rx="52" ry="32" fill="#120e0a"/>
+      <path d="M112 88 L138 48 L148 54 L122 94 Z" fill="#120e0a"/>
+    </g>
+
+    <!-- Classic Township White Enamel Bowl with Chipped Cobalt Blue Rim -->
+    <g class="enamel-bowl">
+      <!-- White Enamel Bowl Underbody -->
+      <ellipse cx="80" cy="118" rx="64" ry="22" fill="#e5e7eb" stroke="#120e0a" stroke-width="5" stroke-linejoin="round"/>
+      <ellipse cx="80" cy="116" rx="60" ry="18" fill="#f9fafb"/>
+      
+      <!-- Iconic Cobalt Blue Enamel Rim Band (South African classic) -->
+      <path d="M16 114 C16 128 144 128 144 114 C144 102 16 102 16 114 Z" 
+            fill="#0284c7" stroke="#120e0a" stroke-width="4.5" stroke-linejoin="round"/>
+      <path d="M22 112 Q80 106 138 112" stroke="#38bdf8" stroke-width="2.5" stroke-linecap="round"/>
+
+      <!-- Authentic Enamel Chips / Black Wear Spots on the Blue Rim -->
+      <rect x="34" y="111" width="5" height="3" rx="1" fill="#120e0a"/>
+      <rect x="88" y="117" width="6" height="3" rx="1" fill="#120e0a"/>
+      <rect x="122" y="112" width="4" height="2.5" rx="1" fill="#120e0a"/>
+    </g>
+
+    <!-- Big Fluffy Mounded Steaming White Pap (Maize porridge) -->
+    <g class="pap-mound">
+      <!-- Hand-Sculpted Pap Mound Contour -->
+      <path d="M30 110 C28 78 46 60 80 60 C114 60 132 78 130 110 C108 120 52 120 30 110 Z" 
+            fill="#fefefe" stroke="#120e0a" stroke-width="5" stroke-linejoin="round"/>
+      
+      <!-- Warm Savoury Shading on Pap Folds -->
+      <path d="M38 104 C48 108 64 112 80 112 C96 112 112 108 122 104 C112 114 48 114 38 104 Z" fill="#f3ede2"/>
+      <path d="M34 94 C42 72 58 66 74 64 C64 74 58 88 56 102 C46 102 38 98 34 94 Z" fill="#f8f4eb"/>
+
+      <!-- Fluffy Pap Indents and Wooden Spoon Grooves -->
+      <path d="M54 78 Q60 74 68 78" stroke="#e2d7c3" stroke-width="3" stroke-linecap="round"/>
+      <path d="M96 82 Q90 78 84 84" stroke="#e2d7c3" stroke-width="3" stroke-linecap="round"/>
+    </g>
+
+    <!-- Rich Tomato & Onion Chakalaka Relish (Pooled on top & dripping down) -->
+    <g class="chakalaka-relish">
+      <!-- Deep Crimson/Tomato Sauce Pool -->
+      <path d="M58 64 C58 54 70 50 82 50 C96 50 106 54 106 64 C106 72 100 78 94 80 C92 88 86 94 80 94 C72 94 70 86 64 82 C58 78 58 70 58 64 Z" 
+            fill="#dc2626" stroke="#120e0a" stroke-width="4" stroke-linejoin="round"/>
+      
+      <!-- Saturated Orange Stew Highlights -->
+      <path d="M66 58 Q82 52 94 58 Q88 64 72 64 Z" fill="#f97316"/>
+      
+      <!-- Authentic Relish Drips Streaming Down the Pap Mound -->
+      <path d="M78 88 C79 98 84 102 84 106 C84 108 80 108 79 104 C77 100 76 92 78 88 Z" 
+            fill="#dc2626" stroke="#120e0a" stroke-width="2.5" stroke-linejoin="round"/>
+
+      <!-- Relish Ingredients (Baked beans, grated carrots, green peppers) -->
+      <ellipse cx="74" cy="62" rx="4.5" ry="3.2" fill="#fef08a" stroke="#120e0a" stroke-width="1.5"/>
+      <ellipse cx="90" cy="70" rx="4" ry="2.8" fill="#fed7aa" stroke="#120e0a" stroke-width="1.5"/>
+      <rect x="84" y="58" width="4" height="4" rx="1.5" fill="#16a34a"/>
+      <rect x="70" y="72" width="3.5" height="3.5" rx="1" fill="#15803d"/>
+      <path d="M76 56 Q82 54 88 56" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+    </g>
+
+    <!-- Vintage Heavy Metal Spoon (Immersed at an angle) -->
+    <g class="metal-spoon">
+      <!-- Handle -->
+      <path d="M106 82 L138 34 L148 40 L116 88 Z" 
+            fill="#9ca3af" stroke="#120e0a" stroke-width="3.8" stroke-linejoin="round"/>
+      <path d="M112 80 L140 37" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+      <circle cx="142" cy="38" r="3" fill="#d1d5db" stroke="#120e0a" stroke-width="1.5"/>
+      <!-- Spoon bowl in pap -->
+      <ellipse cx="104" cy="88" rx="11" ry="7" fill="#d1d5db" stroke="#120e0a" stroke-width="3.5"/>
+    </g>
+
+    <!-- Painted Signwriter White Glints -->
+    <g class="sign-glints">
+      <path d="M28 116 Q42 122 56 122" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round"/>
+      <circle cx="26" cy="115" r="2" fill="#ffffff"/>
+    </g>
+
+    <!-- Steaming Hot Vapor Waves -->
+    <g class="steam-trails" stroke="#120e0a" stroke-width="3.2" stroke-linecap="round" fill="none">
+      <path d="M52 50 C46 38 54 28 48 16 C46 10 50 6 54 2" stroke="#e5e7eb" stroke-width="4.5"/>
+      <path d="M52 50 C46 38 54 28 48 16 C46 10 50 6 54 2"/>
+      <path d="M80 44 C86 32 78 22 84 10" stroke="#e5e7eb" stroke-width="5"/>
+      <path d="M80 44 C86 32 78 22 84 10"/>
+      <path d="M106 46 C112 34 104 24 110 12" stroke="#e5e7eb" stroke-width="4.5"/>
+      <path d="M106 46 C112 34 104 24 110 12"/>
+    </g>
+  </g>
+</svg>

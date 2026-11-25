@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="100%" height="100%" fill="none" class="township-icon township-master">
+  <defs>
+    <filter id="mural-roughness-master" x="-15%" y="-15%" width="130%" height="130%" filterUnits="objectBoundingBox">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="4" result="noise" />
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="3.2" xChannelSelector="R" yChannelSelector="G" result="displaced" />
+    </filter>
+  </defs>
+
+  <g filter="url(#mural-roughness-master)">
+    <!-- Painted Wall Cast Shadow -->
+    <g opacity="0.45" transform="translate(5, 6)">
+      <circle cx="80" cy="78" r="48" fill="#120e0a"/>
+      <path d="M34 144 C36 118 58 108 80 108 C102 108 124 118 126 144 Z" fill="#120e0a"/>
+      <path d="M46 50 C46 28 66 22 80 22 C94 22 114 28 114 50 Z" fill="#120e0a"/>
+    </g>
+
+    <!-- Torso & Patterned Red Shirt (Inspired by T-Bone in Ref 2) -->
+    <g class="master-torso">
+      <path d="M32 144 C34 116 56 106 80 106 C104 106 126 116 128 144 Z" 
+            fill="#dc2626" stroke="#120e0a" stroke-width="5" stroke-linejoin="round"/>
+      
+      <!-- Black Jacket Lapels (T-Bone Ref 2 look) -->
+      <path d="M32 144 C34 126 42 118 52 112 L44 144 Z" fill="#1f1f1f" stroke="#120e0a" stroke-width="4"/>
+      <path d="M128 144 C126 126 118 118 108 112 L116 144 Z" fill="#1f1f1f" stroke="#120e0a" stroke-width="4"/>
+      
+      <!-- Hand-Painted Gold Chain with Fire Pendant -->
+      <path d="M64 112 Q80 126 96 112" stroke="#f59e0b" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="80" cy="122" r="4.5" fill="#ea580c" stroke="#120e0a" stroke-width="1.8"/>
+    </g>
+
+    <!-- Head & Neck (Rich Umber / Terracotta skin tone with folk art brushwork) -->
+    <g class="master-head">
+      <rect x="68" y="90" width="24" height="22" fill="#8d5b36" stroke="#120e0a" stroke-width="4"/>
+      <!-- Head Contour -->
+      <path d="M48 76 C46 106 62 114 80 114 C98 114 114 106 112 76 C112 48 98 40 80 40 C62 40 48 48 48 76 Z" 
+            fill="#9e663e" stroke="#120e0a" stroke-width="5" stroke-linejoin="round"/>
+      
+      <!-- Ears with Gold Earring -->
+      <path d="M48 74 C42 74 42 86 48 88 Z" fill="#8d5b36" stroke="#120e0a" stroke-width="3.5"/>
+      <path d="M112 74 C118 74 118 86 112 88 Z" fill="#8d5b36" stroke="#120e0a" stroke-width="3.5"/>
+      <circle cx="46" cy="86" r="2.8" fill="#facc15" stroke="#120e0a" stroke-width="1.2"/>
+    </g>
+
+    <!-- Barbershop Haircut / Flat-Top Fade (Ref 1 & Ref 2) -->
+    <g class="master-hair">
+      <path d="M48 62 C48 36 58 30 80 30 C102 30 112 36 112 62 C112 56 104 48 80 48 C56 48 48 56 48 62 Z" 
+            fill="#120e0a" stroke="#120e0a" stroke-width="4.5" stroke-linejoin="round"/>
+      <rect x="50" y="40" width="60" height="16" rx="4" fill="#120e0a"/>
+      <!-- Temple Fade brush texture -->
+      <line x1="50" y1="56" x2="56" y2="56" stroke="#332c27" stroke-width="3"/>
+      <line x1="110" y1="56" x2="104" y2="56" stroke="#332c27" stroke-width="3"/>
+    </g>
+
+    <!-- Expressive Folk Art Facial Features (Homage to King Tiger & T-Bone) -->
+    <g class="master-face">
+      <!-- Arched Eyebrows -->
+      <path d="M58 60 Q66 56 74 61" stroke="#120e0a" stroke-width="4.5" stroke-linecap="round"/>
+      <path d="M86 61 Q94 56 102 60" stroke="#120e0a" stroke-width="4.5" stroke-linecap="round"/>
+
+      <!-- Large Stylized Expressive Almond Eyes (King Tiger style) -->
+      <!-- Left Eye -->
+      <ellipse cx="66" cy="68" rx="7" ry="5" fill="#ffffff" stroke="#120e0a" stroke-width="3"/>
+      <circle cx="67" cy="68" r="3.2" fill="#120e0a"/>
+      <circle cx="68.5" cy="66.5" r="1.5" fill="#ffffff"/> <!-- Catchlight -->
+
+      <!-- Right Eye -->
+      <ellipse cx="94" cy="68" rx="7" ry="5" fill="#ffffff" stroke="#120e0a" stroke-width="3"/>
+      <circle cx="93" cy="68" r="3.2" fill="#120e0a"/>
+      <circle cx="94.5" cy="66.5" r="1.5" fill="#ffffff"/> <!-- Catchlight -->
+
+      <!-- Nose (Hand-painted sign outline) -->
+      <path d="M80 64 L80 78 C76 80 75 82 78 84 C81 85 84 85 85 80" stroke="#120e0a" stroke-width="3" stroke-linecap="round" fill="none"/>
+
+      <!-- Mustache & Soul Patch / Goatee (Exact King Tiger beard design) -->
+      <path d="M68 88 C74 86 80 87 80 89 C80 87 86 86 92 88 C87 91 73 91 68 88 Z" fill="#120e0a" stroke="#120e0a" stroke-width="2.5"/>
+      <path d="M71 92 Q80 97 89 92" stroke="#5c241a" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+      <!-- Soul patch -->
+      <ellipse cx="80" cy="96" rx="2.5" ry="2.5" fill="#120e0a"/>
+      <!-- Chin Beard -->
+      <path d="M72 100 Q80 106 88 100 Q84 107 72 100 Z" fill="#120e0a" stroke="#120e0a" stroke-width="2.5"/>
+    </g>
+
+    <!-- Sign-Painter Cheekbone & Forehead Gouache Highlights -->
+    <g class="portrait-highlights">
+      <path d="M57 74 Q59 78 64 77" stroke="#be8459" stroke-width="3" stroke-linecap="round"/>
+      <path d="M96 77 Q101 78 103 74" stroke="#be8459" stroke-width="3" stroke-linecap="round"/>
+      <line x1="74" y1="52" x2="86" y2="52" stroke="#be8459" stroke-width="2.5" stroke-linecap="round"/>
+    </g>
+
+    <!-- Red Chef Bandana / Headband with Braai Flame Symbol -->
+    <g class="chef-bandana">
+      <path d="M52 44 Q80 40 108 44" stroke="#ea580c" stroke-width="6" stroke-linecap="round"/>
+      <circle cx="80" cy="42" r="4.5" fill="#facc15" stroke="#120e0a" stroke-width="1.8"/>
+    </g>
+  </g>
+</svg>

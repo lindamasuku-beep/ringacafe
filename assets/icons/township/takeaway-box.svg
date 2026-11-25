@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="100%" height="100%" fill="none" class="township-icon township-takeaway">
+  <!-- Hand-Painted Shadow Layer -->
+  <g class="painted-shadow" opacity="0.35" transform="translate(3.5, 4.5)">
+    <path d="M28 104 L24 48 L96 48 L92 104 Z" fill="#18130f"/>
+    <!-- Bag Handle Shadow -->
+    <path d="M44 48 C44 26 76 26 76 48" stroke="#18130f" stroke-width="4" fill="none"/>
+  </g>
+
+  <!-- Delicious Food Poking Out of Bag (Golden Drumstick & Portuguese roll) -->
+  <g class="bag-contents">
+    <!-- Golden Roast Drumstick Bone & Meat -->
+    <ellipse cx="44" cy="42" rx="14" ry="10" transform="rotate(-25 44 42)" fill="#ea8c20" stroke="#18130f" stroke-width="3"/>
+    <circle cx="30" cy="32" r="3.5" fill="#ffffff" stroke="#18130f" stroke-width="2"/>
+    <circle cx="27" cy="37" r="3" fill="#ffffff" stroke="#18130f" stroke-width="2"/>
+    <line x1="39" y1="36" x2="47" y2="44" stroke="#3c1e08" stroke-width="2.5" stroke-linecap="round"/>
+
+    <!-- Portuguese Bread Roll (Crusty roll) -->
+    <ellipse cx="76" cy="44" rx="15" ry="9" transform="rotate(15 76 44)" fill="#f59e0b" stroke="#18130f" stroke-width="3"/>
+    <path d="M68 41 C74 44 82 45 86 42" stroke="#b45309" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Kraft Paper Takeaway Bag Body -->
+  <g class="takeaway-bag">
+    <!-- Main Bag Face -->
+    <path d="M28 102 L24 46 L96 46 L92 102 Z" 
+          fill="#d97706" stroke="#18130f" stroke-width="4" stroke-linejoin="round"/>
+    
+    <!-- Bag 3D Side Gusset Shading -->
+    <path d="M28 102 L24 46 L34 49 L36 102 Z" fill="#b45309"/>
+
+    <!-- Bag Front Lip with serrated / fold crease -->
+    <path d="M24 46 L96 46" stroke="#18130f" stroke-width="3.5"/>
+    <path d="M30 52 L90 52" stroke="#b45309" stroke-width="1.8" stroke-dasharray="3 3"/>
+
+    <!-- Twisted Paper Rope Handles -->
+    <!-- Back Handle -->
+    <path d="M46 46 C46 28 74 28 74 46" stroke="#92400e" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <!-- Front Handle -->
+    <path d="M44 50 C44 26 76 26 76 50" stroke="#18130f" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+    <path d="M44 50 C44 26 76 26 76 50" stroke="#d97706" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+    <!-- Front Painted Sign Stamp / Badge ("RINGA HOT") -->
+    <g class="bag-stamp">
+      <!-- White / Cream Painted Plaque -->
+      <rect x="40" y="62" width="40" height="26" rx="4" fill="#fef3c7" stroke="#18130f" stroke-width="2.8"/>
+      <!-- Cerulean Blue Border Line (Ref 1/3 homage) -->
+      <rect x="42" y="64" width="36" height="22" rx="2" fill="none" stroke="#0284c7" stroke-width="1.8"/>
+      
+      <!-- Hand-Painted Red Flame Motif inside badge -->
+      <path d="M60 67 C57 71 55 75 57 79 C60 83 63 81 63 79 C64 81 66 81 66 79 C67 80 68 79 67 76 C65 73 61 71 60 67 Z" 
+            fill="#dc2626"/>
+      
+      <!-- Hand-painted "HOT" lettering dots -->
+      <circle cx="50" cy="75" r="1.5" fill="#0284c7"/>
+      <circle cx="70" cy="75" r="1.5" fill="#0284c7"/>
+    </g>
+
+    <!-- Signwriter White Crease Highlights -->
+    <path d="M38 56 L38 96" stroke="#ffffff" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+    <path d="M84 56 L82 96" stroke="#ffffff" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+  </g>
+
+  <!-- Steam Whisps -->
+  <g class="steam" stroke="#18130f" stroke-width="2" stroke-linecap="round" fill="none">
+    <path d="M54 22 C52 16 58 12 56 6" stroke="#e5e7eb" stroke-width="2.8"/>
+    <path d="M54 22 C52 16 58 12 56 6"/>
+  </g>
+</svg>

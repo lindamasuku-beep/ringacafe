@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="100%" height="100%" fill="none" class="township-icon township-potjie">
+  <defs>
+    <filter id="mural-roughness-potjie" x="-15%" y="-15%" width="130%" height="130%" filterUnits="objectBoundingBox">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="4" result="noise" />
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="3.2" xChannelSelector="R" yChannelSelector="G" result="displaced" />
+    </filter>
+  </defs>
+
+  <g filter="url(#mural-roughness-potjie)">
+    <!-- Painted Wall Cast Shadow -->
+    <g opacity="0.45" transform="translate(5, 6)">
+      <!-- Tripod legs shadow -->
+      <path d="M40 120 L28 144 L44 144 L48 124 Z" fill="#120e0a"/>
+      <path d="M76 126 L74 146 L86 146 L84 126 Z" fill="#120e0a"/>
+      <path d="M112 124 L116 144 L132 144 L120 120 Z" fill="#120e0a"/>
+      <!-- Pot cauldron belly shadow -->
+      <path d="M30 92 C30 126 130 126 130 92 C130 68 30 68 30 92 Z" fill="#120e0a"/>
+      <!-- Hot coals shadow -->
+      <ellipse cx="80" cy="142" rx="58" ry="10" fill="#120e0a"/>
+    </g>
+
+    <!-- Glowing Coals Bed at the feet -->
+    <g class="potjie-coals">
+      <ellipse cx="80" cy="140" rx="56" ry="10" fill="#1c1815" stroke="#120e0a" stroke-width="4"/>
+      <!-- Glowing Red/Orange Embers -->
+      <path d="M42 140 Q58 134 76 141 Q96 135 118 140" stroke="#dc2626" stroke-width="4.5" stroke-linecap="round"/>
+      <circle cx="56" cy="139" r="4.5" fill="#facc15"/>
+      <circle cx="92" cy="141" r="4" fill="#ea580c"/>
+      <circle cx="106" cy="139" r="3" fill="#facc15"/>
+      <circle cx="74" cy="142" r="3.5" fill="#fff"/>
+    </g>
+
+    <!-- Heavy Cast-Iron Tripod Legs -->
+    <g class="cast-iron-legs">
+      <!-- Left Leg (Splayed outward) -->
+      <path d="M38 112 L26 142 L42 142 L48 118 Z" 
+            fill="#262320" stroke="#120e0a" stroke-width="4.5" stroke-linejoin="round"/>
+      <!-- Center Front Leg -->
+      <path d="M76 118 L74 144 L86 144 L84 118 Z" 
+            fill="#1e1a17" stroke="#120e0a" stroke-width="4.5" stroke-linejoin="round"/>
+      <!-- Right Leg (Splayed outward) -->
+      <path d="M112 118 L118 142 L134 142 L122 112 Z" 
+            fill="#262320" stroke="#120e0a" stroke-width="4.5" stroke-linejoin="round"/>
+    </g>
+
+    <!-- Cast-Iron Pot Cauldron Body (Heavy, rugged, bulging) -->
+    <g class="potjie-body">
+      <!-- Main Cauldron Bowl Mass -->
+      <path d="M28 84 C26 108 40 128 80 128 C120 128 134 108 132 84 C132 74 28 74 28 84 Z" 
+            fill="#2c2825" stroke="#120e0a" stroke-width="5.5" stroke-linejoin="round"/>
+      
+      <!-- Cast Iron Rim Lip Flange -->
+      <path d="M22 76 C22 66 138 66 138 76 C138 86 22 86 22 76 Z" 
+            fill="#3a3530" stroke="#120e0a" stroke-width="4.5" stroke-linejoin="round"/>
+
+      <!-- Traditional Circumferential Cast-Iron Reinforcing Ribs -->
+      <path d="M30 92 Q80 112 130 92" stroke="#120e0a" stroke-width="4" fill="none"/>
+      <path d="M31 94 Q80 114 129 94" stroke="#524d47" stroke-width="2" fill="none"/>
+
+      <path d="M36 108 Q80 124 124 108" stroke="#120e0a" stroke-width="3.5" fill="none"/>
+
+      <!-- Iron Lifting Ears (Handles on Left and Right) -->
+      <!-- Left Ear -->
+      <path d="M24 74 C14 74 12 84 22 90 C26 86 26 78 24 74 Z" 
+            fill="#1f1b18" stroke="#120e0a" stroke-width="4" stroke-linejoin="round"/>
+      <!-- Right Ear -->
+      <path d="M136 74 C146 74 148 84 138 90 C134 86 134 78 136 74 Z" 
+            fill="#1f1b18" stroke="#120e0a" stroke-width="4" stroke-linejoin="round"/>
+
+      <!-- Arched Iron Carrying Bail Wire Handle -->
+      <path d="M22 76 C18 32 142 32 138 76" stroke="#120e0a" stroke-width="5" fill="none" stroke-linecap="round"/>
+      <path d="M23 74 C20 34 140 34 137 74" stroke="#9ca3af" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+      <!-- Wire handle coil spring center grip -->
+      <rect x="68" y="32" width="24" height="8" rx="3" fill="#d1d5db" stroke="#120e0a" stroke-width="3"/>
+    </g>
+
+    <!-- Savoury Mala Mogodu & Beef Stew Inside Pot (Rich, bubbling, hearty) -->
+    <g class="potjie-stew">
+      <!-- Stew Gravy Bed -->
+      <ellipse cx="80" cy="74" rx="46" ry="12" fill="#9a3412" stroke="#120e0a" stroke-width="3.5"/>
+      <ellipse cx="80" cy="74" rx="42" ry="9" fill="#c2410c"/>
+      <ellipse cx="80" cy="73" rx="38" ry="6.5" fill="#ea580c"/>
+
+      <!-- Tender Mala Mogodu (Braised Tripe Folds - Traditional Kasi Delicacy) -->
+      <path d="M54 73 C56 68 62 67 66 70 C70 67 76 68 76 74 C72 77 56 78 54 73 Z" 
+            fill="#fef3c7" stroke="#120e0a" stroke-width="2.2"/>
+      <path d="M84 72 C86 67 92 66 96 69 C100 66 106 68 104 74 C100 77 86 76 84 72 Z" 
+            fill="#fef3c7" stroke="#120e0a" stroke-width="2.2"/>
+      <!-- Tripe honeycomb / fold texture lines -->
+      <path d="M58 71 Q64 74 72 71" stroke="#d97706" stroke-width="1.5" fill="none"/>
+      <path d="M88 71 Q94 74 100 71" stroke="#d97706" stroke-width="1.5" fill="none"/>
+
+      <!-- Tender Braised Beef / Chuck Chunks -->
+      <rect x="42" y="70" width="8" height="6" rx="2" fill="#78350f" stroke="#120e0a" stroke-width="1.8"/>
+      <rect x="74" y="74" width="9" height="6" rx="2" fill="#78350f" stroke="#120e0a" stroke-width="1.8"/>
+      <rect x="108" y="70" width="8" height="6" rx="2" fill="#78350f" stroke="#120e0a" stroke-width="1.8"/>
+
+      <!-- Diced Orange Carrots & Potatoes -->
+      <rect x="66" y="69" width="5" height="5" rx="1.5" fill="#f97316"/>
+      <rect x="88" y="75" width="4.5" height="4.5" rx="1.5" fill="#fde047"/>
+      <!-- Fresh Green Herbs / Pepper Sprinkles -->
+      <circle cx="52" cy="74" r="2" fill="#16a34a"/>
+      <circle cx="82" cy="70" r="2" fill="#16a34a"/>
+      <circle cx="102" cy="73" r="2" fill="#16a34a"/>
+
+      <!-- Bubbling Stew Glazes -->
+      <circle cx="64" cy="76" r="3" fill="#ea580c" stroke="#120e0a" stroke-width="1"/>
+      <circle cx="98" cy="75" r="2.8" fill="#ea580c" stroke="#120e0a" stroke-width="1"/>
+    </g>
+
+    <!-- Signwriter White & Ochre Highlights (Mural paint sheen) -->
+    <g class="mural-highlights">
+      <!-- Rim white gloss brush stroke -->
+      <path d="M42 69 Q80 66 118 69" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round"/>
+      <!-- Belly curved highlight reflection -->
+      <path d="M36 86 Q34 102 46 114" stroke="#ffffff" stroke-width="3.8" stroke-linecap="round" opacity="0.9"/>
+      <path d="M42 90 Q40 102 50 110" stroke="#9ca3af" stroke-width="2" stroke-linecap="round"/>
+      <ellipse cx="37" cy="94" rx="2.5" ry="6" fill="#ffffff"/>
+      <!-- Right edge secondary reflection -->
+      <path d="M124 86 Q126 102 114 114" stroke="#524d47" stroke-width="2" stroke-linecap="round"/>
+    </g>
+
+    <!-- Billowing Fragrant Steam Clouds (Hot Kasi Cooking) -->
+    <g stroke="#120e0a" stroke-width="3.5" stroke-linecap="round" fill="none">
+      <path d="M56 58 C48 44 58 32 50 18 C46 12 50 6 52 2" stroke="#f3f4f6" stroke-width="5"/>
+      <path d="M56 58 C48 44 58 32 50 18 C46 12 50 6 52 2"/>
+
+      <path d="M80 54 C88 38 74 24 82 12 C86 6 82 2 84 0" stroke="#f3f4f6" stroke-width="6"/>
+      <path d="M80 54 C88 38 74 24 82 12 C86 6 82 2 84 0"/>
+
+      <path d="M104 58 C112 44 102 32 110 18 C114 12 110 6 108 2" stroke="#f3f4f6" stroke-width="5"/>
+      <path d="M104 58 C112 44 102 32 110 18 C114 12 110 6 108 2"/>
+    </g>
+  </g>
+</svg>

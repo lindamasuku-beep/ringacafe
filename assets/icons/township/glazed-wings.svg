@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="100%" height="100%" fill="none" class="township-icon township-wings">
+  <!-- Hand-Painted Shadow Layer -->
+  <g class="painted-shadow" opacity="0.35" transform="translate(3.5, 4.5)">
+    <ellipse cx="60" cy="94" rx="42" ry="12" fill="#18130f"/>
+    <!-- Wing silhouettes shadow -->
+    <ellipse cx="44" cy="58" rx="26" ry="18" transform="rotate(-25 44 58)" fill="#18130f"/>
+    <ellipse cx="76" cy="62" rx="28" ry="18" transform="rotate(20 76 62)" fill="#18130f"/>
+    <circle cx="20" cy="42" r="6" fill="#18130f"/>
+    <circle cx="100" cy="48" r="6" fill="#18130f"/>
+  </g>
+
+  <!-- Braai Flames Behind Wings -->
+  <g class="wing-flames">
+    <path d="M48 64 C42 42 54 34 58 44 C66 28 80 34 78 48 C88 44 94 56 88 68 C76 72 56 72 48 64 Z" 
+          fill="#ea580c" stroke="#18130f" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M54 62 C50 48 58 42 62 48 C68 38 76 42 74 52 C70 58 58 60 54 62 Z" 
+          fill="#fbc02d" stroke="#18130f" stroke-width="2" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Wing 1: Back Drumette (Left tilted) -->
+  <g class="drumette-back">
+    <!-- Fleshy drumette body -->
+    <ellipse cx="46" cy="56" rx="22" ry="15" transform="rotate(-30 46 56)" 
+             fill="#d97706" stroke="#18130f" stroke-width="3.5" stroke-linejoin="round"/>
+    <!-- Bone knob sticking out -->
+    <path d="M22 40 C17 38 18 32 23 34 C25 35 26 38 27 41 C25 43 23 42 22 40 Z" 
+          fill="#ffffff" stroke="#18130f" stroke-width="2.5" stroke-linejoin="round"/>
+    <!-- Red Glaze layer -->
+    <path d="M36 50 C44 44 56 46 58 56 C52 64 42 66 34 60 Z" fill="#b91c1c" opacity="0.85"/>
+  </g>
+
+  <!-- Wing 2: Foreground Glazed Flat / Wingette (Juicy, sticky, hero) -->
+  <g class="wing-foreground">
+    <!-- Main golden chicken wing base -->
+    <ellipse cx="72" cy="66" rx="26" ry="18" transform="rotate(15 72 66)" 
+             fill="#ea8c20" stroke="#18130f" stroke-width="4" stroke-linejoin="round"/>
+    
+    <!-- Thick Sticky Red-Brown BBQ Glaze -->
+    <path d="M52 64 C56 54 70 50 82 54 C94 58 98 70 94 78 C86 84 66 84 56 76 C52 72 50 68 52 64 Z" 
+          fill="#c2410c" stroke="#18130f" stroke-width="3" stroke-linejoin="round"/>
+    
+    <!-- Rich deep mahogany glaze pools -->
+    <path d="M58 64 C64 56 78 56 86 60 C90 68 84 76 74 78 C64 80 58 72 58 64 Z" fill="#991b1b"/>
+
+    <!-- Wing Tip Knuckle Bones -->
+    <circle cx="98" cy="74" r="4.5" fill="#ffffff" stroke="#18130f" stroke-width="2.5"/>
+    <circle cx="96" cy="81" r="4" fill="#ffffff" stroke="#18130f" stroke-width="2.5"/>
+
+    <!-- Braai Grill Char Lines -->
+    <line x1="62" y1="58" x2="68" y2="70" stroke="#3c1e08" stroke-width="3" stroke-linecap="round"/>
+    <line x1="74" y1="58" x2="82" y2="72" stroke="#3c1e08" stroke-width="3" stroke-linecap="round"/>
+    <line x1="84" y1="62" x2="90" y2="74" stroke="#3c1e08" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Toasted White Sesame Seeds (Delicious fast-food glaze detail) -->
+    <ellipse cx="64" cy="62" rx="2" ry="1.2" transform="rotate(20 64 62)" fill="#fef3c7" stroke="#18130f" stroke-width="0.8"/>
+    <ellipse cx="74" cy="64" rx="2" ry="1.2" transform="rotate(-35 74 64)" fill="#fef3c7" stroke="#18130f" stroke-width="0.8"/>
+    <ellipse cx="80" cy="70" rx="2" ry="1.2" transform="rotate(45 80 70)" fill="#fef3c7" stroke="#18130f" stroke-width="0.8"/>
+    <ellipse cx="70" cy="72" rx="2" ry="1.2" transform="rotate(10 70 72)" fill="#fef3c7" stroke="#18130f" stroke-width="0.8"/>
+    <ellipse cx="86" cy="64" rx="2" ry="1.2" transform="rotate(-15 86 64)" fill="#fef3c7" stroke="#18130f" stroke-width="0.8"/>
+
+    <!-- High-Gloss Signwriter Highlights (Lustrous glaze gleam) -->
+    <path d="M66 54 C74 52 84 54 88 58" stroke="#ffffff" stroke-width="2.8" stroke-linecap="round" opacity="0.9"/>
+    <ellipse cx="62" cy="56" rx="2" ry="1" fill="#ffffff"/>
+    <path d="M72 74 C78 76 82 76 84 74" stroke="#ffffff" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+    
+    <!-- Delicious sticky glaze drip -->
+    <path d="M68 78 C68 84 71 85 71 88 C71 90 69 90 68 88 C66 85 66 80 68 78 Z" fill="#b91c1c"/>
+  </g>
+
+  <!-- Sizzle Drops -->
+  <g class="sizzle-dots">
+    <circle cx="28" cy="70" r="2.2" fill="#ea580c"/>
+    <circle cx="94" cy="46" r="2" fill="#fbc02d"/>
+  </g>
+</svg>

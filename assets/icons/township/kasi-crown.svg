@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="100%" height="100%" fill="none" class="township-icon township-crown">
+  <defs>
+    <filter id="mural-roughness-crown" x="-15%" y="-15%" width="130%" height="130%" filterUnits="objectBoundingBox">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="4" result="noise" />
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="3.2" xChannelSelector="R" yChannelSelector="G" result="displaced" />
+    </filter>
+  </defs>
+
+  <g filter="url(#mural-roughness-crown)">
+    <!-- Painted Wall Cast Shadow (Matches King Tiger Ref 1) -->
+    <g opacity="0.45" transform="translate(5, 6)">
+      <path d="M30 114 L18 60 L50 82 L80 40 L110 82 L142 60 L130 114 Z" fill="#120e0a"/>
+      <rect x="26" y="110" width="108" height="18" rx="4" fill="#120e0a"/>
+    </g>
+
+    <!-- Crown Body (Direct homage to King Tiger painted crown) -->
+    <g class="crown-body">
+      <!-- 5-Point Crown Spire Wall (Cobalt / Cerulean Blue Enamel) -->
+      <path d="M28 112 L16 58 L50 80 L80 38 L110 80 L144 58 L132 112 Z" 
+            fill="#0284c7" stroke="#120e0a" stroke-width="5" stroke-linejoin="round"/>
+      
+      <!-- Hand-Painted Tonal Folds (Darker navy blue shading on recesses) -->
+      <path d="M50 80 L80 38 L80 112 L50 112 Z" fill="#0369a1"/>
+      <path d="M110 80 L144 58 L132 112 L110 112 Z" fill="#0369a1"/>
+      <path d="M16 58 L50 80 L32 112 L28 112 Z" fill="#38bdf8"/>
+      <path d="M80 38 L110 80 L110 112 L80 112 Z" fill="#0284c7"/>
+
+      <!-- Lower Gold Circlet Band (Enamel Base) -->
+      <rect x="26" y="106" width="108" height="16" rx="4" 
+            fill="#f59e0b" stroke="#120e0a" stroke-width="4.5" stroke-linejoin="round"/>
+      
+      <!-- Jewels on Band -->
+      <circle cx="42" cy="114" r="4.5" fill="#dc2626" stroke="#120e0a" stroke-width="2.2"/>
+      <circle cx="62" cy="114" r="4.5" fill="#ffffff" stroke="#120e0a" stroke-width="2.2"/>
+      <circle cx="80" cy="114" r="5.5" fill="#16a34a" stroke="#120e0a" stroke-width="2.2"/>
+      <circle cx="98" cy="114" r="4.5" fill="#ffffff" stroke="#120e0a" stroke-width="2.2"/>
+      <circle cx="118" cy="114" r="4.5" fill="#dc2626" stroke="#120e0a" stroke-width="2.2"/>
+
+      <!-- Painted Gold Jewels on 5 Crown Point Summits -->
+      <!-- Left Outer Ball -->
+      <circle cx="16" cy="54" r="6" fill="#f59e0b" stroke="#120e0a" stroke-width="3.2"/>
+      <circle cx="16" cy="54" r="2" fill="#fff"/>
+      <!-- Left Inner Ball -->
+      <circle cx="50" cy="76" r="5.5" fill="#f59e0b" stroke="#120e0a" stroke-width="3.2"/>
+      <circle cx="50" cy="76" r="1.8" fill="#fff"/>
+      <!-- Royal Center Highest Peak Ball -->
+      <circle cx="80" cy="34" r="8" fill="#f59e0b" stroke="#120e0a" stroke-width="4"/>
+      <circle cx="80" cy="34" r="2.8" fill="#fff"/>
+      <!-- Right Inner Ball -->
+      <circle cx="110" cy="76" r="5.5" fill="#f59e0b" stroke="#120e0a" stroke-width="3.2"/>
+      <circle cx="110" cy="76" r="1.8" fill="#fff"/>
+      <!-- Right Outer Ball -->
+      <circle cx="144" cy="54" r="6" fill="#f59e0b" stroke="#120e0a" stroke-width="3.2"/>
+      <circle cx="144" cy="54" r="2" fill="#fff"/>
+    </g>
+
+    <!-- Signwriter White Brush Glints & Highlights -->
+    <g class="sign-highlights">
+      <!-- Center peak ridge glint -->
+      <path d="M76 46 L54 74" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round"/>
+      <path d="M28 108 L132 108" stroke="#fef08a" stroke-width="2" stroke-linecap="round"/>
+      
+      <!-- Royal Star Sparkle (Top Peak) -->
+      <path d="M80 18 Q80 24 74 24 Q80 24 80 30 Q80 24 86 24 Q80 24 80 18 Z" 
+            fill="#f59e0b" stroke="#120e0a" stroke-width="1.8"/>
+    </g>
+  </g>
+</svg>

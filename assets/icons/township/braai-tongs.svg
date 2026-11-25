@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="100%" height="100%" fill="none" class="township-icon township-tongs">
+  <!-- Hand-Painted Shadow Layer -->
+  <g class="painted-shadow" opacity="0.35" transform="translate(3.5, 4.5)">
+    <path d="M22 18 L68 76 L86 64 L36 10 Z" fill="#18130f"/>
+    <ellipse cx="78" cy="74" rx="22" ry="14" fill="#18130f"/>
+    <!-- Fire shadow -->
+    <path d="M50 102 C60 84 80 84 94 102 Z" fill="#18130f"/>
+  </g>
+
+  <!-- Open Braai Fire Below -->
+  <g class="bottom-flames">
+    <path d="M52 102 C50 86 60 78 66 84 C72 72 84 76 88 88 C94 82 98 92 96 102 Z" 
+          fill="#ea580c" stroke="#18130f" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M60 102 C58 92 64 86 68 90 C74 82 82 84 84 92 C86 96 82 102 78 102 Z" 
+          fill="#fbc02d" stroke="#18130f" stroke-width="2" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Sizzling Flame-Grilled Meat Gripped in Tongs -->
+  <g class="grilled-meat">
+    <!-- Golden roasted tender cut -->
+    <ellipse cx="76" cy="72" rx="20" ry="13" transform="rotate(-15 76 72)" 
+             fill="#ea8c20" stroke="#18130f" stroke-width="3.5" stroke-linejoin="round"/>
+    <!-- Glaze & Char marks -->
+    <path d="M64 68 C70 60 84 62 88 70 C84 76 70 78 64 68 Z" fill="#b91c1c"/>
+    <line x1="68" y1="64" x2="74" y2="76" stroke="#3c1e08" stroke-width="2.8" stroke-linecap="round"/>
+    <line x1="78" y1="64" x2="84" y2="76" stroke="#3c1e08" stroke-width="2.8" stroke-linecap="round"/>
+    <!-- Meat white gloss dab -->
+    <ellipse cx="70" cy="67" rx="3" ry="1.5" fill="#ffffff" opacity="0.9"/>
+  </g>
+
+  <!-- Stainless Steel Braai Tongs (Spring Action) -->
+  <g class="steel-tongs">
+    <!-- Top Arm -->
+    <path d="M22 18 C28 20 62 60 66 64 C70 68 76 68 74 62 C70 56 42 22 26 12 Z" 
+          fill="#d1d5db" stroke="#18130f" stroke-width="3.5" stroke-linejoin="round"/>
+    
+    <!-- Bottom Arm -->
+    <path d="M22 18 C26 24 54 74 60 80 C64 84 72 82 72 76 C68 70 46 32 30 14 Z" 
+          fill="#9ca3af" stroke="#18130f" stroke-width="3.5" stroke-linejoin="round"/>
+
+    <!-- Spring Loop Joint (Top left pivot) -->
+    <circle cx="24" cy="16" r="7" fill="#6b7280" stroke="#18130f" stroke-width="3.5"/>
+    <circle cx="24" cy="16" r="3" fill="#ffffff" stroke="#18130f" stroke-width="2"/>
+
+    <!-- Scalloped Gripping Teeth at Tips -->
+    <path d="M68 62 L74 60 L72 64 L76 63 L74 67" stroke="#18130f" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+    <path d="M62 78 L68 80 L66 76 L70 77 L68 73" stroke="#18130f" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+
+    <!-- Signwriter Steel Sheen Glints -->
+    <path d="M28 22 L54 52" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M36 28 L52 48" stroke="#f3f4f6" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Braai Sparks -->
+  <g class="sparks">
+    <circle cx="92" cy="58" r="2" fill="#fbc02d" stroke="#18130f" stroke-width="1"/>
+    <circle cx="62" cy="52" r="1.8" fill="#ea580c"/>
+    <circle cx="86" cy="88" r="2.2" fill="#f59e0b"/>
+  </g>
+</svg>
