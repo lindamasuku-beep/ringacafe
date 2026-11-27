@@ -121,13 +121,25 @@ main > :is(.hero,.section--hero),main > .hero.hero-place,.hero-place{background:
 .badge-chef{background:#194D47;color:#FFF3D6;box-shadow:none}
 
 /* story / denlyn vibe */
-.mo-wh__text{font-family:var(--font-text);font-weight:800;font-size:clamp(20px,2.4vw,28px);line-height:1.45;margin-bottom:24px}
-.mo-wh strong{color:var(--teal)}
-.vibe-pair{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin:0 0 24px 0}
+.vibe-head{display:grid;grid-template-columns:5.5fr 6.5fr;gap:32px;align-items:center;margin-bottom:28px}
+.vibe-lead{min-width:0}
+#story .section-title{max-width:20ch;margin-bottom:18px}
+.vibe-callout{background:#FFF9EA;border:3px solid var(--ink);border-radius:16px 6px 16px 6px;box-shadow:6px 6px 0 var(--ink);padding:22px 26px}
+#story[data-moment="word-highlight"] .mo-wh__text,#story .mo-wh__text{font-family:var(--font-text);font-weight:700;font-size:clamp(16px,1.35vw,19px);line-height:1.58;letter-spacing:0;max-width:none;color:var(--ink);margin:0 0 18px 0}
+#story .mo-wh__text p{margin:0 0 18px 0}
+#story .mo-wh__text p:empty{display:none}
+#story .mo-wh__text p:last-child{margin-bottom:0}
+#story .mo-wh strong,#story .mo-wh__text strong{color:var(--teal);font-weight:800}
+.vibe-proofs{list-style:none;margin:0;padding:14px 0 0 0;border-top:2px dashed rgba(30,26,22,.3);display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.vibe-proofs li{font-size:14px;line-height:1.35;color:var(--ink);font-weight:600}
+.vibe-proofs strong{display:block;font-size:12px;text-transform:uppercase;letter-spacing:0.06em;color:var(--teal);font-weight:800;margin-bottom:2px}
+.vibe-pair{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin:0}
+.vibe-pair--1{grid-template-columns:1fr}
+.vibe-pair--3{grid-template-columns:repeat(3,1fr)}
 .vibe-frame{margin:0;border:3px solid var(--ink);border-radius:16px 6px 16px 6px;box-shadow:6px 6px 0 var(--ink);overflow:hidden;aspect-ratio:3/2;background:var(--p-surface-muted)}
 .vibe-frame:nth-child(even){border-radius:6px 16px 6px 16px}
 .vibe-frame img{width:100%;height:100%;object-fit:cover;display:block}
-.story-actions{margin-top:8px}
+.story-actions{margin-top:0}
 
 /* order card & builder */
 .order-card{background:var(--cream);color:var(--ink);border:3px solid var(--ink);box-shadow:8px 8px 0 var(--ink);border-radius:20px 6px 20px 6px;max-width:100%;box-sizing:border-box;padding:32px 32px}
@@ -285,7 +297,10 @@ main > :is(.hero,.section--hero),main > .hero.hero-place,.hero-place{background:
   .hero-actions .btn{flex:1 1 auto}
 
   #story{padding:40px 0 64px}
-  .vibe-pair{grid-template-columns:1fr;gap:14px;margin-bottom:20px}
+  .vibe-head{grid-template-columns:1fr;gap:20px;margin-bottom:20px}
+  .vibe-callout{padding:18px 18px;box-shadow:4px 4px 0 var(--ink)}
+  .vibe-proofs{grid-template-columns:1fr;gap:10px}
+  .vibe-pair,.vibe-pair--3{grid-template-columns:1fr;gap:14px;margin-bottom:0}
   .vibe-frame{aspect-ratio:16/10;box-shadow:4px 4px 0 var(--ink)}
 
   .order-split{grid-template-columns:1fr;gap:18px}
